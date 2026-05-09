@@ -1,4 +1,4 @@
-#blogsdiv{
+.users-container{
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
@@ -6,7 +6,7 @@
     justify-content: center;
 }
 
-#carddiv{
+.card{
     border: 3px solid rgb(8, 10, 122);
     border-radius: 20px;
     width: 300px;

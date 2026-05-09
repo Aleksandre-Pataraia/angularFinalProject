@@ -1,5 +1,5 @@
-import { Component, inject, signal } from '@angular/core';
-import { ActivatedRoute, Router, RouterLink, RouterOutlet } from '@angular/router';
+import { Component, signal } from '@angular/core';
+import { RouterLink, RouterOutlet } from '@angular/router';
 import { Header } from "./body/header/header";
 import { Footer } from "./body/footer/footer";
 

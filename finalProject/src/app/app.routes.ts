@@ -1,9 +1,9 @@
 import { Routes } from '@angular/router';
 import { Contact } from './contact/contact';
 import { HomeMain } from './body/home-main/home-main';
-import { Blogs } from './blogs/blogs';
+import { Users } from './users/users';
 import { Errorpage } from './errorpage/errorpage';
-import { IndBlog } from './blogs/ind-blog/ind-blog';
+import { IndUser } from './users/ind-user/ind-user';
 
 export const routes: Routes = [
     {
@@ -20,12 +20,12 @@ export const routes: Routes = [
         component: Contact
     },
     {
-        path: 'blogs',
-        component: Blogs
+        path: 'users',
+        component: Users
     },
     {
-        path: 'blogs/:id',
-        component: IndBlog
+        path: 'users/:id',
+        component: IndUser
     },
     {
         path: '**',

@@ -1,0 +1,15 @@
+<div class="users-container">
+
+  @for(user of users$ | async; track user.id) {
+
+    <a class="card" [routerLink]="['/users', user.id]">
+
+      <h2>{{ user.username }}</h2>
+      <p>{{ user.name }}</p>
+      <p>{{ user.email }}</p>
+
+    </a>
+
+  }
+
+</div>
