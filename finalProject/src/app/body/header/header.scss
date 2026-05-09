@@ -1,0 +1,123 @@
+#headerdiv{
+    display: flex;
+    flex-direction: column;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    background-color: #0f1c38;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+#div1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+#div1 a{
+    color: #82b192;
+    margin-bottom: 0;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+#div1 p{
+    margin-top: 0;
+    position: relative;
+    bottom: 35px;
+}
+
+#div2{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+#div2 a{
+    text-decoration: none;
+    color: white;
+    background-color: #132e6b;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+#div2 a:hover{
+    scale: 1.25;
+    transition: 0.4s;
+    background-color: #3a5186;
+}
+
+#div3{
+    display: flex;
+    width: 95%;
+    height: 600px;
+    background: url();
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    left: 2.5%;
+}
+
+#div3 p{
+    position: relative;
+    font-size: 14px;
+    color: white;
+    animation-name: sentenceMoving;
+    animation-duration:10s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+    display: flex;
+    font-weight: bolder;
+}
+
+@keyframes sentenceMoving{
+    0%{
+        left: 0;
+        top: 0;
+    }
+
+    20%{
+        left: 35%;
+        top: 200px;
+        rotate: 30deg;
+        color: #5cbc28;
+    }
+
+    40%{
+        left: 70%;
+        top: 10%;
+        rotate: -30deg;
+        color: #38a806;
+    }
+
+    60%{
+        left: 0;
+        top: 400px;
+        rotate: 0deg;
+        color: #86a9fb;
+    }
+
+    80%{
+        left: 70%;
+        top: 400px;
+        rotate: 30deg;
+        color: #6284fc;
+    }
+
+    100%{
+        left: 0;
+        top: 0;
+        rotate: 0deg;
+        color: white;
+    }
+}

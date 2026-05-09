@@ -1,0 +1,91 @@
+
+#footerdiv{
+    display: flex;
+    flex-direction: column;
+    background-color: #0f1c38;
+    color: #747d8f;
+    padding-left: 2.5%;
+    padding-right: 5%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+footer a{
+    text-decoration: none;
+    color: #747d8f;
+}
+
+#div4{
+    display: flex;
+    flex-direction: row;
+    padding-top: 5%;
+    gap: 30px;
+    align-items:flex-start;
+    justify-content: space-between;
+}
+
+#div5{
+    display: flex;
+    flex-direction:column;
+    justify-content: flex-start;
+    width: 40%;
+    align-items: flex-start;
+}
+
+#div5_1{
+    display: flex;
+    flex-direction: row;
+}
+
+#img2{
+    scale: 0.7;
+}
+
+#img3{
+    scale: 0.9;
+    position: relative;
+    right: 20px;
+}
+
+#div6{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#div7{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#div8{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#div8 p{
+    margin: 0;
+}
+
+#div9{
+    display: flex;
+    justify-content: center;
+    padding-top: 3%;
+    padding-bottom: 1%;
+}
+
+.footertitles{
+    color: white;
+}
+
+
+#contactinfo{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding-left: 40%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
