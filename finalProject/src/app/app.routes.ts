@@ -2,8 +2,8 @@ import { Routes } from '@angular/router';
 import { Contact } from './contact/contact';
 import { HomeMain } from './body/home-main/home-main';
 import { Blogs } from './blogs/blogs';
-import { Products } from './products/products';
 import { Errorpage } from './errorpage/errorpage';
+import { IndBlog } from './blogs/ind-blog/ind-blog';
 
 export const routes: Routes = [
     {
@@ -20,12 +20,12 @@ export const routes: Routes = [
         component: Contact
     },
     {
-        path: 'blogs/blogs-detailed/:id',
+        path: 'blogs',
         component: Blogs
     },
     {
-        path: 'products/products-detailed/:id',
-        component: Products
+        path: 'blogs/:id',
+        component: IndBlog
     },
     {
         path: '**',

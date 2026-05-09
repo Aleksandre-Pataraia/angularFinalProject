@@ -1,0 +1,20 @@
+#blogsdiv{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+#carddiv{
+    border: 3px solid rgb(8, 10, 122);
+    border-radius: 20px;
+    width: 300px;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    justify-content: space-between;
+    background-color: rgb(68, 142, 207);
+}

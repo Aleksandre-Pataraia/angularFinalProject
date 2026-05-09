@@ -11,11 +11,4 @@ import { Footer } from "./body/footer/footer";
 })
 export class App {
   protected readonly title = signal('finalProject');
-  route: ActivatedRoute = inject(ActivatedRoute);
-  router: Router = inject(Router);
-
-  ngOnInit() {
-    console.log(this.route);
-    console.log(this.router);
-  }
 }
