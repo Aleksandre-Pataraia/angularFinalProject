@@ -2,20 +2,22 @@
 
   <div class="user-details">
 
-    <h1>{{ user.name }}</h1>
+    <div>
+      <h1><span>Name and Surname: </span>{{ user.name }}</h1>
+      <div>
+        <p><span>Username: </span>{{ user.username }}</p>
+        <p><span>Email: </span>{{ user.email }}</p>
+        <p><span>Phone: </span>{{ user.phone }}</p>
+      </div>
 
-    <p>{{ user.username }}</p>
-    <p>{{ user.email }}</p>
-    <p>{{ user.phone }}</p>
-
-    <h3>Address</h3>
-    <p>{{ user.address.city }}</p>
-
-    <h3>Company</h3>
-    <p>{{ user.company.name }}</p>
-
+    </div>
+    <div style="display: flex; flex-direction: row; gap: 20px;">
+      <h3><span>Website: </span>{{ user.website }}</h3>
+      <h3><span>Address: </span>{{ user.address.city }}</h3>
+      <h3><span>Company: </span>{{ user.company.name }}</h3>
+    </div>
   </div>
 
 }  @else {
   <h3 style="display: flex; justify-content: center; padding: 30px;">Loading user...</h3>
-}
+} 

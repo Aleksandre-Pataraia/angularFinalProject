@@ -1,20 +1,18 @@
 #contactinfo{
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    justify-content: space-around;
-    padding-left: 40%;
-    padding-top: 5%;
-    padding-bottom: 5%;
+    align-items: center;
+    justify-content: center;
 }
 
 #contactbox{
     display: flex;
     flex-direction: column;
-    align-items: left;
+    align-items: center;
     justify-content: center;
     border: 2px solid black;
-    padding: 20px;
     border-radius: 10px;
-    background-color: #f0f0f0;
+    background-color: #b3b2f1;
+    padding: 100px;
+    margin: 30px;
 }

@@ -9,11 +9,21 @@
     gap: 1%;
 }
 
+section{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;  
+    align-items: center;  
+    justify-content: center;
+}
+
 #maindiv p{
     text-align: justify;
-    border: #38a806 2px solid;
+    border: #010167 2px solid;
+    border-radius: 50px;
     padding: 2.5%;
     background-color: #afc9f9;
-    height: 350px;
+    font-style: italic;
 }
 
