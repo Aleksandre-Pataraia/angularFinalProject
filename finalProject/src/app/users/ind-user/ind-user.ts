@@ -1,5 +1,5 @@
 import { Component, inject } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, RouterLink } from '@angular/router';
 import { Observable } from 'rxjs';
 import { Services, IUser } from '../../services';
 import { AsyncPipe } from '@angular/common';
@@ -7,7 +7,7 @@ import { AsyncPipe } from '@angular/common';
 @Component({
   selector: 'app-ind-user',
   standalone: true,
-  imports: [AsyncPipe],
+  imports: [AsyncPipe, RouterLink],
   templateUrl: './ind-user.html',
   styleUrl: './ind-user.scss'
 })
